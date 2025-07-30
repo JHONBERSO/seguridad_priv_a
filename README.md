@@ -36,6 +36,7 @@ Una aplicación Android que demuestra el manejo seguro de permisos y protección
 ## Estructura del Proyecto
 
 ```
+
 app/
 ├── src/main/java/com/example/seguridad_priv_a/
 │   ├── MainActivity.kt                 # Pantalla principal
