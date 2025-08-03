@@ -175,6 +175,51 @@ Desarrolla un sistema de análisis forense que:
 - Libraries de seguridad open source
 - Stack Overflow y comunidades técnicas
 
----
+----------------------------------------------------------------------------------------------
+## Interfaces del projecto en Android Studio
 
-**Nota**: Esta evaluación requiere conocimientos sólidos en seguridad móvil, criptografía aplicada y arquitecturas Android modernas. Se valorará especialmente la capacidad de aplicar principios de security-by-design y el pensamiento crítico en la identificación de vectores de ataque.
+## 1.Permisos en Android (CAMARA)
+![Imagen de WhatsApp 2025-08-03 a las 00 36 36_1b30d2b7](https://github.com/user-attachments/assets/c68afffc-0bee-4374-81f0-323d4dd7c439)
+![Imagen de WhatsApp 2025-08-03 a las 00 36 36_f567ab8d](https://github.com/user-attachments/assets/d510ccf7-2420-4229-8fdd-b51a5203aa2a)
+
+La imagen es la interfaz de usuario de la aplicación que se está evaluando. Muestra los permisos de Android que la aplicación puede solicitar, como cámara, galería, micrófono, contactos, teléfono y ubicación. 
+
+## 2.Permisos en Android (GALERIA)
+![Imagen de WhatsApp 2025-08-03 a las 00 33 22_fed08cad](https://github.com/user-attachments/assets/614e27e8-42e3-4a51-855c-2ca719ad1a87)
+![Imagen de WhatsApp 2025-08-03 a las 00 33 57_787ad618](https://github.com/user-attachments/assets/f11343fe-42b2-4166-81de-4d9c093df2f7)
+En conjunto, ambas imágenes muestran el flujo de trabajo para obtener y utilizar el permiso de galería, destacando cómo la aplicación intenta manejar la seguridad y la privacidad de los datos, lo cual es el foco principal del documento de evaluación técnica.
+
+## 3.Permisos en Android (MICROFONO)
+![Imagen de WhatsApp 2025-08-03 a las 00 36 36_8662fdc2](https://github.com/user-attachments/assets/6f530a7a-7a12-47dc-a4c8-9fb2b2a8feb4)
+![Imagen de WhatsApp 2025-08-03 a las 00 36 36_0b3db693](https://github.com/user-attachments/assets/fd2da664-e038-42c4-951e-350ae399f0df)
+las dos imágenes demuestran cómo la aplicación maneja el permiso de micrófono, desde la solicitud del permiso en tiempo de ejecución hasta el procesamiento y la eliminación segura de los datos grabados, lo que está en total consonancia con los objetivos de seguridad del documento de evaluación técnica.
+
+## 4.Permisos en Android (CONTACTOS)
+![Imagen de WhatsApp 2025-08-03 a las 00 36 37_3a5aa874](https://github.com/user-attachments/assets/5e71c327-9a3d-4396-88d3-b2418a17e8ed)
+![Imagen de WhatsApp 2025-08-03 a las 00 36 37_f98dd3c6](https://github.com/user-attachments/assets/3df13e26-cdb3-4410-b9c1-f6d5fef8f26d)
+Estas dos imágenes muestran el ciclo completo del permiso de contactos: desde la solicitud del permiso en tiempo de ejecución hasta el manejo post-concesión, con un enfoque en el procesamiento local, lo cual está en completa alineación con los objetivos de seguridad y privacidad del documento de evaluación técnica.
+
+## 5.Permisos en Android (TELEFONO)
+![Imagen de WhatsApp 2025-08-03 a las 00 36 37_94662a95](https://github.com/user-attachments/assets/9f355f9b-d599-437e-957d-30bfd5e39d9d)
+![Imagen de WhatsApp 2025-08-03 a las 00 36 37_303dd0bd](https://github.com/user-attachments/assets/aa5c0c90-c3d8-4bd2-9d28-bdd85a6d3188)
+![Imagen de WhatsApp 2025-08-03 a las 00 36 38_629895d3](https://github.com/user-attachments/assets/5783f34b-3019-43f4-bb63-0180717dddba)
+
+Estas imágenes completan el ciclo de gestión del permiso de teléfono, mostrando desde la solicitud de acceso a una función sensible hasta su uso posterior dentro de la interfaz de la aplicación.
+
+## 6.Permisos en Android (UBICACIÓN)
+![Imagen de WhatsApp 2025-08-03 a las 00 36 38_9454233a](https://github.com/user-attachments/assets/f9210982-a325-48fe-a901-df737ed82a6e)
+![Imagen de WhatsApp 2025-08-03 a las 00 36 38_919a96d7](https://github.com/user-attachments/assets/e71e9a96-c6a3-4b0a-94f8-7b9e79855f20)
+
+Este diálogo se corresponde con la gestión de permisos peligrosos en tiempo de ejecución, en particular con el permiso android.permission.ACCESS_COARSE_LOCATION, que es uno de los permisos listados en la Parte 1.2 del documento de evaluación técnica. Su presentación demuestra que la aplicación sigue las mejores prácticas de privacidad de Android al dar al usuario un control detallado sobre sus datos de ubicación.
+
+## 7.Permisos en Android (PROTECCIÓN DE DATOS)
+![Imagen de WhatsApp 2025-08-03 a las 00 36 38_3ac5a02f](https://github.com/user-attachments/assets/ce813a79-53a9-4fb4-88ec-183c13a79422)
+esta imagen es una representación visual de la implementación de múltiples características de seguridad y privacidad descritas en el documento de evaluación, desde el encriptado y la gestión de permisos hasta la anonimización de datos y el registro detallado de actividades.
+
+## 8.Permisos en Android (POLITICAS DE PRIVACIDAD)
+![Imagen de WhatsApp 2025-08-03 a las 00 36 38_e1c41fc1](https://github.com/user-attachments/assets/541df473-0d32-4e06-a748-2a0c6239da8b)
+Esta imagen actúa como una declaración de transparencia de la aplicación, resumiendo de manera accesible para el usuario final las mismas medidas de seguridad y privacidad que son objeto de análisis técnico en el documento de evaluación. 
+
+
+
+
