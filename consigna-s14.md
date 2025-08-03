@@ -81,12 +81,22 @@ Crea una nueva clase `SecurityAuditManager` que:
 - Implemente rate limiting para operaciones sensibles
 - Genere alertas cuando se detecten patrones anómalos
 - Exporte logs en formato JSON firmado digitalmente
+<img width="1893" height="940" alt="image" src="https://github.com/user-attachments/assets/47e7501a-f395-4bdc-b486-034ba6728087" />
+Ahi esta  la clase creado que hace todo lo solicitado
+
 
 ### 2.3 Biometría y Autenticación (3 puntos)
 Implementa autenticación biométrica en `DataProtectionActivity.kt`:
 - Integra BiometricPrompt API para proteger el acceso a logs
+  <img width="1140" height="615" alt="image" src="https://github.com/user-attachments/assets/a4eda71a-278e-42df-ad85-348d34f2e566" />
+
 - Implementa fallback a PIN/Pattern si biometría no está disponible
+  <img width="1186" height="699" alt="image" src="https://github.com/user-attachments/assets/5ef27e64-26e1-41f4-82d9-f34475c96779" />
+
 - Añade timeout de sesión tras inactividad de 5 minutos
+<img width="1237" height="204" alt="image" src="https://github.com/user-attachments/assets/ee928e8b-7365-4cf4-96ae-f3cf639bf6ae" />
+
+  
 
 ## Parte 3: Arquitectura de Seguridad Avanzada (15-20 puntos)
 
